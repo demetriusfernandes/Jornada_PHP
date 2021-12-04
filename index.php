@@ -6,10 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		
 	<title>Curso UTD - PHP</title>
 </head>
-
 <?php
 /*-----------------------------------------------------
 														
@@ -74,12 +72,46 @@
 							}
 							echo "$idades[$a] ";
 						}
-						echo "<br>Quantidade de pessoas maiores de 18 anos: $maiores18<br>
-						Quantidade de pessoas menores de 18 anos: $menores18<br>"
+						echo "<br><strong>Quantidade de pessoas <span class='text-success'>maiores</span> de 18 anos</strong>: $maiores18<br>
+						<strong>Quantidade de pessoas <span class='text-danger'>menores</span> de 18 anos</strong>: $menores18<br>"
 						
 				?>
 	</div><!-- Fim Quenstão 08-->
+	
+	<hr>
+	<div> <!-- Inicio Questão 09-->
+		<h1 class="text-primary">Questão 09</h1>
+		<h6 class="text-danger">Digite vários nomes. Exiba na tela todos os nomes digitados, porém de maneira invertida</h3>
+				<?php
+						$nomes = array("Vi","PowDer","Sonna","Jayna","Caytlin","Katarina","Lulu","Mary Jayne","Kytana","Milena","Chun li");
+						
+						echo "<strong>Nomes do array são</strong>:<br>";
+						
+						for($a = 0 ; $a<count($nomes); $a++){
+							echo "$nomes[$a] ";
+						}
+							echo "<br><strong>Em ordem invertida ficam assim</strong>:<br>";
+						
+						for($a = count($nomes) -1 ; $a>=0; $a--){
+							echo "$nomes[$a] ";
+						}
+						
+				?>
+	</div><!-- Fim Quenstão 09-->
 
+<hr>
+	<div> <!-- Inicio Questão 10-->
+		<h1 class="text-primary">Questão 10</h1>
+		<h6 class="text-danger">Digite uma data. Exiba separadamente o dia, o mês e o ano.</h3>
+				<?php
+						$data = "03/10/2021";
+						echo "<strong>Data</strong>: $data<br>";
+
+						echo "Dia: ".substr($data,0,2)."<br>
+							  Mês: ".substr($data,3,2)."<br>
+							  Ano: ".substr($data,6,10)."<br>";
+				?
+	</div><!-- Fim Quenstão 10-->
 
 </div><!-- //FIM container-->
 				
