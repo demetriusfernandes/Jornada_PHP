@@ -13,8 +13,8 @@
 <?php
 /*-----------------------------------------------------
 														
-			ARQUIVO PARA CONFERÊNCIA DE RESPOSTAS 		
-				DOS EXERCÍCIOS DE PROGRESSÃO			
+		ARQUIVO PARA CONFERÊNCIA DE RESPOSTAS 		
+			DOS EXERCÍCIOS DE PROGRESSÃO			
 														
 -----------------------------------------------------*/
 ?>
