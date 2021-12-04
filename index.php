@@ -110,7 +110,7 @@
 						echo "Dia: ".substr($data,0,2)."<br>
 							  Mês: ".substr($data,3,2)."<br>
 							  Ano: ".substr($data,6,10)."<br>";
-				?
+				?>
 	</div><!-- Fim Quenstão 10-->
 
 </div><!-- //FIM container-->
