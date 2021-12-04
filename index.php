@@ -6,10 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	
-	
-	d
-	<title>Teste</title>
+		
+	<title>Curso UTD - PHP</title>
 </head>
 <body>
 
@@ -30,18 +28,18 @@
 					echo "<br><strong>Média:</strong> $media";
 				?>
 	</div><!-- Fim Quenstão 06-->
-<hr>d
+<hr>
 	<div> <!-- Inicio Questão 07-->
 		<h1 class="text-primary">Questão 07</h1>
 		<h6 class="text-danger">Digite 5 números e verifique qual é o maior</h3>
 				<?php
-						$array = [-40, 6, 8, 32, 3];
+						$array = array(-40, 6, 8, 32, 3);
 						$aux = $array[0];  //recebe o primeiro valor do array
 						echo "<strong>Números do array são</strong>:<br>";
-						for($i = 0; $i < count($array) ; $i++){   //varre até o último valor
-							echo "$array[$i] ";
-							if( $aux < $array[$i] ){   //Verifica se é maior, se for atribui o valor a variável $aux
-								$aux = $array[$i]; 
+						for($a = 0; $a < count($array) ; $a++){   //varre até o último valor
+							echo "$array[$a] ";
+							if( $aux < $array[$a] ){   //Verifica se é maior, se for atribui o valor a variável $aux
+								$aux = $array[$a]; 
 							}
 						}
 					
@@ -49,6 +47,28 @@
 				?>
 	</div><!-- Fim Quenstão 07-->
 
+	<hr>
+	<div> <!-- Inicio Questão 08-->
+		<h1 class="text-primary">Questão 08</h1>
+		<h6 class="text-danger">Digite várias idades. Exiba quantas pessoas são  maior  de  idade  (18  anos)  e  quantas  são menores</h3>
+				<?php
+						$idades = array(50,15,2,16,19,23,40,12,9,25,60,32);
+						$maiores18 = 0;
+						$menores18 = 0;
+						echo "<strong>Números do array são</strong>:<br>";
+						for($a = 0 ; $a<count($idades); $a++){
+							if($idades[$a]>18){
+								$maiores18++;
+							}else{
+								$menores18++;
+							}
+							echo "$idades[$a] ";
+						}
+						echo "<br>Quantidade de pessoas maiores de 18 anos: $maiores18<br>
+						Quantidade de pessoas menores de 18 anos: $menores18<br>"
+						
+				?>
+	</div><!-- Fim Quenstão 08-->
 
 
 </div><!-- //FIM container-->
