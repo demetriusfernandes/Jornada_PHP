@@ -9,6 +9,16 @@
 		
 	<title>Curso UTD - PHP</title>
 </head>
+
+<?php
+#------------------------------------------------------#
+#														#
+#			ARQUIVO PARA CONFERÊNCIA DE RESPOSTAS 		#
+#				DOS EXERCÍCIOS DE PROGRESSÃO			#
+#														#
+#------------------------------------------------------#
+?>
+
 <body>
 
 <div class="container"> <!-- Inicio container-->
