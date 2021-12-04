@@ -3,8 +3,8 @@
 Repositório para compartilhamento de práticas do curso de PHP
 <br>
 Instrutor@: https://github.com/mariaelisagmt<br><br>
-<a href="https://github.com/demetriusfernandes/Jornada_PHP/blob/main/index.php">Visualizar respostas das questões >></a><br><br>
-<a href="https://extendsclass.com/php.html">Testar código PHP >></a>
+<a href="https://github.com/demetriusfernandes/Jornada_PHP/blob/main/index.php">Visualizar respostas das questões >></a><br>
+<a href="https://extendsclass.com/php.html">Testador de códigos PHP >></a>
 
 
 
