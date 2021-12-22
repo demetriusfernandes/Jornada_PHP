@@ -1,0 +1,4 @@
+Arroz - 12 - 1.2
+Feijão - 11 - 1.9
+Macarrão - 15 - 0.7
+Ervilha - 19 - 1.3
