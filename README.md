@@ -3,7 +3,6 @@
 Repositório para compartilhamento de práticas do curso de PHP
 <br>
 Instrutor@: https://github.com/mariaelisagmt<br><br>
-<a href="https://github.com/demetriusfernandes/Jornada_PHP/blob/main/index.php">Visualizar respostas das questões >></a><br>
 
 
 
