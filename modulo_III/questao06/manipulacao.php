@@ -19,7 +19,7 @@
                     <input class="form-control"  type="text" name="nome" value=""><br>
                 <label for="nome">Usuário</label>
                     <input class="form-control" type="text" name="usuario" value=""><br>
-                <input type="submit" value="Cadastrar">
+                <input class="btn btn-primary" type="submit" value="Cadastrar">
 
             </form>
 
